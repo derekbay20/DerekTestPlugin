@@ -1,0 +1,20 @@
+{
+    "name": "derek/test-plugin",
+    "description": "Having a plugin test",
+    "version": "1.0.0",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Test"
+        }
+    ],
+    "extra": {
+        "shopware-plugin-class": "Derek\\TestPlugin\\DerekTestPlugin"
+    },
+    "autoload": {
+        "psr-4": {
+            "Derek\\TestPlugin\\": "src/"
+        }
+    }
+}

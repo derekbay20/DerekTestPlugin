@@ -1,0 +1,1 @@
+import './app/src/component/test-plugin/hello-world';
